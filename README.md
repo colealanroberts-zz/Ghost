@@ -42,4 +42,4 @@ Ghost comes with several animations by default.
 | 'fadeIn'       | Fades in with opacity 0 => 1             |
 
 ### Contributing
-Please create a Pull Request with a semi-detailed explanation of what your proposed change does and how it improves upon the existing codebase
+Please create a Pull Request with a semi-detailed explanation of what your proposed change does and how it improves the library. Thanks!
