@@ -2,7 +2,6 @@
     display: inline-block;
     transition: all ease 625ms;
     position: relative;
-    min-width: 10px;
 }
 
 .ghost-char.animation-flipIn {
