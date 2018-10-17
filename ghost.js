@@ -75,8 +75,9 @@ class Ghost {
         for (let i = 0, len = arr.length; i < len; i++) {
             let char = arr[i];
             let el = this.__createElement();
-            el.innerText = char;
-
+            
+            char = char === ' ' ? el.innerHTML = '&nbsp;' : el.innerText = char;
+            
             setTimeout(() => {   
                 setTimeout(() => {
                     el.classList.add('active'); 
