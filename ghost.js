@@ -14,22 +14,22 @@ class Ghost {
 
           switch(true) {
               case (!value.hasOwnProperty('selector')):
-                throw `The property ${ Object.keys(value)[0] } is not a valid option.`;
+                throw `The property ${ Object.keys(value)[0] } is not a valid option. Did you mean 'selector'?`;
 
             case (!value.hasOwnProperty('effect')):
-                throw `The property ${ Object.keys(value)[1] } is not a valid option.`;
+                throw `The property ${ Object.keys(value)[1] } is not a valid option. Did you mean 'effect'?`;
             
             case (!value.hasOwnProperty('text')):
-                throw `The property ${ Object.keys(value)[2] } is not a valid option.`;
+                throw `The property ${ Object.keys(value)[2] } is not a valid option. Did you mean 'text'?`;
 
             case (!value.hasOwnProperty('interval')):
-                throw `The property ${ Object.keys(value)[3] } is not a valid option.`;
+                throw `The property ${ Object.keys(value)[3] } is not a valid option. Did you mean 'interval'?`;
 
             case (!value.hasOwnProperty('delay')):
-                throw `The property ${ Object.keys(value)[4] } is not a valid option.`;
+                throw `The property ${ Object.keys(value)[4] } is not a valid option. Did you mean 'delay'?`;
 
             case (!value.hasOwnProperty('animation')):
-                throw `The property ${ Object.keys(value)[5] } is not a valid option.`;    
+                throw `The property ${ Object.keys(value)[5] } is not a valid option. Did you mean 'animation'?`;    
           }
 
           this._options = value;
