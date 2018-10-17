@@ -1,0 +1,44 @@
+.ghost-char {
+    display: inline-block;
+    transition: all ease 625ms;
+    position: relative;
+    min-width: 10px;
+}
+
+.ghost-char.animation-flipIn {
+    transform: translate(0px, 4px) skewY(5deg);   
+    opacity: 0;
+}
+
+.ghost-char.animation-flipIn.active {
+    transform: translate(0px, 0px) skewY(0deg);
+    opacity: 1;
+}
+
+.ghost-char.animation-slideDown {
+    transform: translate(0px, -24px);
+    opacity: 0;
+}
+
+.ghost-char.animation-slideDown.active {
+    transform: translate(0px, 0);
+    opacity: 1;
+}
+
+.ghost-char.animation-slideUp {
+    transform: translate(0px, 24px);
+    opacity: 0;
+}
+
+.ghost-char.animation-slideUp.active {
+    transform: translate(0px, 0);
+    opacity: 1;
+}
+
+.ghost-char.animation-fadeIn {
+    opacity: 0;
+}
+
+.ghost-char.animation-fadeIn.active {
+    opacity: 1;
+}
