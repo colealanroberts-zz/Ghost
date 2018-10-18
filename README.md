@@ -21,7 +21,7 @@ To use Ghost download the .zip file and add `ghost.css` and `ghost.js` to your H
 
 ### Usage
 To start using Ghost you'll need to create a new instance of the Ghost class with a number of required options
-```
+```javascript
 let ghost = new Ghost({ 
     selector: '#example', 
     effect: 'reveal', 
