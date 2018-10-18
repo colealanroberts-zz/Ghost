@@ -46,3 +46,6 @@ Ghost comes with several animations by default.
 
 ### Contributing
 Please create a Pull Request with a semi-detailed explanation of what your proposed change does and how it improves the library. Thanks!
+
+### License
+[WTFPL](http://www.wtfpl.net/)
