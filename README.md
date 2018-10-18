@@ -2,7 +2,7 @@
 A tiny Javascript library for adding beautiful intro animations to your website.
 
 ### Example
-(https://i.imgur.com/0w3c8Pu.gif)
+[Example Gif](https://i.imgur.com/0w3c8Pu.gif)
 
 ### Installation
 To use Ghost download the .zip file and add `ghost.css` and `ghost.js` to your HTML document.
