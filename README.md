@@ -10,7 +10,7 @@ To use Ghost download the .zip file and add `ghost.css` and `ghost.js` to your H
 
 ### Options
 | Option        | Description   | Type                                                                                |
-| ------------- |:-------------:| -----------------------------------------------------------------------------------:|
+|:------------- |:-------------|:-----------------------------------------------------------------------------------|
 | selector      | The #id or .class-name of an HTML element                                                  | String |
 | effect        | Either 'reveal' or 'typewriter'                                                            | String |
 | text          | A string of text you'd like to animate                                                     | String |
