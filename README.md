@@ -38,7 +38,7 @@ ghost.animate();
 Ghost comes with several animations by default. 
 
 | Value          | Description                              | 
-| -------------- |:----------------------------------------:|
+| -------------- |:-----------------------------------------|
 | 'flipIn'       | Skews in while moving slightly downwards |
 | 'slideDown'    | Slides down on the Y axis                |
 | 'slideUp'      | Slides up on the Y axis                  |
