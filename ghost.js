@@ -43,8 +43,7 @@ class Ghost {
     */
     __createElement() {
         let e = document.createElement('span');
-        e.classList.add('ghost-char');
-        e.classList.add(`animation-${this.options.animation}`);
+        e.classList.add('ghost-char', `animation-${this.options.animation}`);
         return e;
     }
 
