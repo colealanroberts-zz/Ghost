@@ -1,5 +1,5 @@
 # Ghost
-A tiny Javascript library for typewriter like text effects
+A tiny Javascript library for adding beautiful intro animations to your website.
 
 ### Installation
 To use Ghost download the .zip file and add `ghost.css` and `ghost.js` to your HTML document.
