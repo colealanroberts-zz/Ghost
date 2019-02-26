@@ -5,22 +5,22 @@
 }
 
 .ghost-char.animation-flipIn {
-    transform: translate(0px, 4px) skewY(5deg);   
+    transform: translate(0, 4px) skewY(5deg);   
     opacity: 0;
 }
 
 .ghost-char.animation-flipIn.active {
-    transform: translate(0px, 0px) skewY(0deg);
+    transform: translate(0, 0) skewY(0deg);
     opacity: 1;
 }
 
 .ghost-char.animation-slideDown {
-    transform: translate(0px, -24px);
+    transform: translate(0, -24px);
     opacity: 0;
 }
 
 .ghost-char.animation-slideDown.active {
-    transform: translate(0px, 0);
+    transform: translate(0, 0);
     opacity: 1;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .ghost-char.animation-slideUp.active {
-    transform: translate(0px, 0);
+    transform: translate(0, 0);
     opacity: 1;
 }
 
